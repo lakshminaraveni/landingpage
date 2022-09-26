@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+}
+
+section{
+    padding:2rem 7%;
+}
+
+/*---------------form------------*/
+
+/*-------------End of form---------*/
+.header{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 10px 0 0 20px;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+.navbar {
+    padding-top: 5px;
+}
+
+.header .logo{
+    width: 70px;
+    height: 28px;
+    font-size: 20px;
+    margin: 11px 40px 0 0;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #19191b;
+}
+
+.header .navbar a{
+    width: 15px;
+    height: 18px;
+    margin: 8px 35px 4px 10px;
+    font-size: 15px;
+    color: #19191b;
+    text-align: left;
+}
+
+.header .navbar .active{
+    color: tomato;
+}
+
+
+/*-------Home section starts----------*/
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: left;
+    background:url(../images/bg@2x.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content1{
+    max-width: 60rem;
+    margin: 70px 6px 25px 90px;
+}
+
+.home .content1 h3{
+    width: 480px;
+    height: 112px;
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: -1.6px;
+
+}
+
+.home .content1 p{
+    width: 480px;
+    height: 100px;
+    font-size: 18px;
+    color: #696871;
+    font-weight: normal;
+    line-height: 1.8;
+    letter-spacing: -0.5px;
+    padding-top: 18px;
+    margin-bottom: 41px;
+}
+.newslatter{
+    margin-top: 22px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 6px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 6px;
+	background-color: tomato;
+	color: white;
+	top: 6px;
+	right: 6px; 
+}
+
+/*-------Home section ends----------*/
+
+/*-------About section starts----------*/
+.about .service{
+    display: flex;
+	
+}
+.card img {
+    width: 1.3rem;
+    height: 1.6rem;
+    object-fit: contain;
+}
+.card{
+	height: 135px;
+	width: 330px;
+	padding: 22px 18px 26px 25px;
+	background: #fff;
+	border-radius: 9px;
+	margin: 15px;
+	overflow: hidden;
+	text-align: center;
+    line-height: 1.4;
+}
+.about {
+        width: 100%;
+        height: 35rem;
+        background-color: #413e65;
+}
+.about .content2 {
+    margin: 0 0 0 20rem;
+    padding-top: 5rem;
+}
+.about .content2 h3{
+    color: #fff;
+    width: 440px;
+    height: 112px;
+    margin: 0 0.56rem 1rem 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -1.6px;
+}
+.about .content2 p {
+    width: 480px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color: #fff;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.about .btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 0.9px #c31a12;
+    background-color: tomato;
+    padding: 14px 0;
+    margin: 35px 35px 0 3px;
+}
+/*-------About section ends----------*/
+
+.landing {
+        width: 100%;
+        height: 30rem;
+        padding: 0 0 0 5.43rem;
+        background-color: #fff;
+        display: flex;
+}
+.landing .image img {
+    width: 600px;
+    height: 480px;
+    margin: 0 0 0 10rem;
+    object-fit: contain;
+    
+}
+.landing .content3{
+    margin: 0 0 0 15rem;
+    padding-top: 5rem;
+}
+.landing .content3 h3 {
+    color: black;
+    width: 480px;
+    height: 112px;
+    margin: 0 0.56rem 1rem 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -1.6px;
+}
+ .landing .content3 p {
+    width: 480px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color: black;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+.landing .content3 .btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 0.9px #c31a12;
+    background-color: tomato;
+    padding: 14px 0;
+    margin: 35px 35px 0 3px;
+}
+/*-------Landing section ends----------*/
+
+/*-------Box section starts----------*/
+.box-container {
+    width: 1000px;
+    margin: 0 auto;
+        margin-left: 23%;
+
+}
+.boxte h3{
+    color: black;
+    margin: 1.7rem 11.68rem 2.81rem 11.75rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: -1.69px;
+    text-align: center;
+}
+
+.box-card {
+   background: #FFF;
+    margin-bottom: 12px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 250px;
+    float: left;
+    margin-right: 23px;
+    border-radius: 5px;
+}
+
+.box-card img{
+        max-width: 40px;
+    /* float: left; */
+    width: 9px;
+    margin-left: 11px;
+    margin-right: 4px;
+}
+.box .cart-1 {
+    display: flex;
+}
+.card-1 img {
+    width: 1.3rem;
+    height: 1.6rem;
+    object-fit: contain;
+    display: flex;
+}
+.box .card-1{
+	height: 72px;
+	width: 304px;
+	padding: 11px 55px 12px 54px;
+	background: #fff;
+	border-radius: 3px;
+	 margin: 20px;
+	overflow:visible;
+	text-align: center;
+    line-height: 1.4;
+    display: flex;
+}
+.box {
+        width: 100%;
+        height: 35rem;
+        background-color: #f7f7fb;
+}
+
+.cart-1 h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -1.6px;
+}
+
+/*-------Box section ends----------*/
+
+/*-------design section starts----------*/
+.design {
+        width: 100%;
+        height: 30rem;
+        padding: 0 0 6.43rem;
+        background-color: #fff;
+        display: flex;
+}
+.design .image-1 img {
+    width: 350px;
+    height: 490px;
+    margin: 30px 0 0 60px;
+    object-fit: contain;
+    box-shadow: none;
+}
+.design .content5 {
+    margin: 0 0 0 15rem;
+    padding-top: 5rem;
+}
+.design .content5 h3{
+    font-size: 48px;
+    color: black;
+    width: 480px;
+    height: 112px;
+    margin: 0 0.56rem 1rem 0;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -1.69px;
+}
+.design .content5 p {
+    font-size: 18px;
+    color: black;
+    width: 480px;
+    height: 112px;
+    margin: 0 0.56rem 1rem 0;
+    font-weight: normal;
+    line-height: 1.8;
+    letter-spacing: -0.5px ;
+    padding: 1rem 0;
+}
+.design .btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 0.9px #c31a12;
+    background-color: tomato;
+    padding: 14px 0;
+    margin: 35px 35px 0 3px;
+}
+/*-------design section ends----------*/
+
+/*-------review section starts----------*/
+.review {
+        width: 100%;
+        height: 30rem;
+        background-color: #f7f7fb;
+        text-align: center;
+            margin-bottom: 40px;
+
+}
+.review-top-content {
+    width: 460px;
+    text-align: center;
+    margin: 26px auto;
+    display: block;
+    color: gray;
+}
+.review .content6 h3{
+    color: black;
+    height: 62px;
+    margin: 0 11.68rem 0.81rem 11.75rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: -1.69px;
+}
+.review-cards {
+    width: 734px;
+    text-align: center;
+    margin: 0 auto;
+}
+.review-auth-info img{
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+.review-auth-data{
+    float: left;
+    margin-left: 10px;
+}
+.auth-name{
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+.review-content{
+    text-align: left;
+    line-height: 22px;
+        color: #19191b;
+}
+span.auth-desig {
+    font-size: 12px;
+    color: gray;
+}
+.review-top p {
+    width: 340px;
+}
+.review .content6 p {
+    color: black;
+    height: 69px;
+    margin: 0 11.68rem 0.81rem 11.75rem;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.86;
+    letter-spacing: -0.59px;
+}
+.review-auth-info {
+    margin-top: 22px;
+}
+.review-box{
+    font-size: 14px;
+    margin-right: 27px;
+    float: left;
+    width: 340px;
+    background: #fff;
+    padding: 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+/*-------review section ends----------*/
+
+/*-------product section starts----------*/
+.product {
+        width: 100%;
+        height: 35rem;
+        padding: 4rem 0 6.43rem;
+        background-color: #413e65;
+        display: flex;
+        margin-top: -3rem;
+}
+.product .image-2 img {
+    width: 350px;
+    height: 400px;
+    margin: 0 0 0 90px;
+    object-fit: contain;
+}
+.product .content7 {
+    margin: 0 0 0 10rem;
+    padding-top: 2rem;
+}
+.product .content7 h3{
+    color: #fff;
+    width: 480px;
+    height: 112px;
+    margin: 0 0.56rem 1rem 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: 0.3px;
+}
+.product .content7 p {
+    color: #fff;
+    width: 480px;
+    height: 112px;
+    margin: -3rem 0.56rem 1rem 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.17;
+    letter-spacing: 0.5px;
+}
+.newslatter{
+    margin-top: 3px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 6px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 6px;
+	background-color: tomato;
+	color: white;
+	top: 6px;
+	right: 6px; 
+}
+/*-------product section ends----------*/
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #fff;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 23%;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+.footer-col p {
+    width: 170px;
+    height: 70px;
+    font-size: 14px;
+    margin: 16px 76px 20px 1px;
+    font-weight: normal;
+    line-height: 1.75;
+    color: #696871;
+    letter-spacing: -0.45px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 14px;
+	color: #19191b;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+/* media queries  */
+@media (max-width:991px){
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    /* #menu-btn{
+        display: inline-block;
+    } */
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content1 h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content1 p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
